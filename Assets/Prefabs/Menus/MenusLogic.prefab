@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8007255525727366845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 164707828613964635}
+  - component: {fileID: 6100886137418783024}
+  - component: {fileID: 3256065073760085031}
+  - component: {fileID: 228244890092819856}
+  - component: {fileID: 3349708644899238897}
+  m_Layer: 0
+  m_Name: MenusLogic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &164707828613964635
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8007255525727366845}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -199.45425, y: 476.72708, z: -2.19359}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6100886137418783024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8007255525727366845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8534e21a2b3fe5a4aa85f3621bd439cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _menuObjectEnumElements:
+  - EnumItem: 0
+    MenuParentObject: {fileID: 0}
+  - EnumItem: 1
+    MenuParentObject: {fileID: 0}
+  - EnumItem: 2
+    MenuParentObject: {fileID: 0}
+  - EnumItem: 3
+    MenuParentObject: {fileID: 0}
+  - EnumItem: 4
+    MenuParentObject: {fileID: 0}
+  - EnumItem: 7
+    MenuParentObject: {fileID: 0}
+  - EnumItem: 5
+    MenuParentObject: {fileID: 0}
+  - EnumItem: 6
+    MenuParentObject: {fileID: 0}
+--- !u!114 &3256065073760085031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8007255525727366845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2305725d2a192024b98a8e3e72381d19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _unselectedSectionSprite: {fileID: 21300026, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  _unselectedSectionTextColor: {r: 0, g: 0, b: 0, a: 1}
+  _selectedSectionSprite: {fileID: 21300046, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  _selectedSectionTextColor: {r: 1, g: 1, b: 1, a: 1}
+  _roomsInformationBannersContainer: {fileID: 0}
+  _roomInformationBannerPrefab: {fileID: 2621289519694985902, guid: 421fef0993ca91444adb78bae159b1ff, type: 3}
+  _roomsListSectionButton: {fileID: 0}
+  _roomCreationSectionButton: {fileID: 0}
+  _roomsListSectionParent: {fileID: 0}
+  _roomCreationSectionParent: {fileID: 0}
+  _roomNameInput: {fileID: 0}
+  _roomNameErrorMessage: {fileID: 0}
+  _maximumPlayersCountText: {fileID: 0}
+  _increaseMaximumPlayersCountButton: {fileID: 0}
+  _decreaseMaximumPlayersCountButton: {fileID: 0}
+  _accessibilityStatusText: {fileID: 0}
+  _passwordInput: {fileID: 0}
+  _passwordErrorMessage: {fileID: 0}
+  _playButton: {fileID: 0}
+  _roomButtonsParent: {fileID: 0}
+  _readyButtonImage: {fileID: 0}
+  _readyImage: {fileID: 21300118, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  _notReadyImage: {fileID: 21300120, guid: 1eaee135ce037439d925cee5e41ce026, type: 3}
+  _playerBannerPrefab: {fileID: 3689672800949609265, guid: 0f459c27f8d173942a1f095805ada265, type: 3}
+  _playerBannersCountByLine: 2
+  _playerBannersLines:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &228244890092819856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8007255525727366845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8beee72276e0ab54bb49ec16653c210f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _nicknameInput: {fileID: 0}
+  _errorMessage: {fileID: 0}
+--- !u!114 &3349708644899238897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8007255525727366845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
